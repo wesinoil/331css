@@ -1,0 +1,45 @@
+
+.row-grid {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 300px; */
+  gap: 1rem;
+  justify-content: space-between;
+  
+ 
+}
+
+
+.col-grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 280vh;
+  margin-top: 3rem;
+  max-width: 50%;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 3rem auto 3rem 0;
+
+}
+
+.card {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 5px;
+  flex: 1 1 auto;
+}
+
+.card-grid {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+  overflow: hidden;
+  flex: 1;
+  
+}
